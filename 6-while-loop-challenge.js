@@ -1,13 +1,10 @@
 const prompt = require("prompt-sync")({ sigint: true }); // for later
 
-const randomNum = Math.ceil(Math.random() * 10);
-let input;
-
+const randomNumber = Math.ceil(Math.random() * 10);
 console.log("I'm thinking of a random number. Guess what it is!");
 
-while (input !== randomNum) {
-  input = prompt("Enter a number or q to quit: ");
-
+while (true) {
+  const input = prompt("Enter a number or q to quit: ");
   if (input === "q") {
     console.log("Bye!");
     break;
@@ -16,9 +13,7 @@ while (input !== randomNum) {
     console.log("please enter a number");
     continue;
   }
-  if (Number(input) === randomNum) {
-    console.log('You got it!!!');
-    break;
-  }
-  console.log(`${input}? That's a great number! But not mine!`);
+  console.log(`${input}? That's a great number!`);
 }
+
+console.log("Thanks for playing!");
