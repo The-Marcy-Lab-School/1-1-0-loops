@@ -5,10 +5,10 @@ const flipCoin = () => {
 }
 
 // Please comment these out when you're done :)
-// console.log(`Flip number ${1} was ${flipCoin()}`);
-// console.log(`Flip number ${2} was ${flipCoin()}`);
-// console.log(`Flip number ${3} was ${flipCoin()}`);
-// console.log(`Flip number ${4} was ${flipCoin()}`);
-// console.log(`Flip number ${5} was ${flipCoin()}`);
+// console.log(`Flip number 1 was ${flipCoin()}`);
+// console.log(`Flip number 2 was ${flipCoin()}`);
+// console.log(`Flip number 3 was ${flipCoin()}`);
+// console.log(`Flip number 4 was ${flipCoin()}`);
+// console.log(`Flip number 5 was ${flipCoin()}`);
 
 module.exports = flipCoin;
